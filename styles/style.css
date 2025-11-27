@@ -54,7 +54,7 @@
 .content {
   display: flex;
   flex-direction: column;
-  gap: 51px;
+  gap: 50px;
   align-items: center;
   margin-bottom: 100px;
 }
@@ -76,8 +76,8 @@
 
 .content__card_image-box {
   position: relative;
-  display: inline-block; 
-  overflow: hidden; 
+  display: inline-block;
+  overflow: hidden;
 }
 
 .content__card_image-box-img {
@@ -91,10 +91,10 @@
 }
 
 .content__card_image-box .content__card_image-box-label {
-  position: absolute; 
+  position: absolute;
   z-index: 1;
-  top: 25px; 
-  right: 25px; 
+  top: 25px;
+  right: 25px;
   mix-blend-mode: hard-light;
   background-color: transparent;
   font-family: var(--font-press-start);
@@ -305,11 +305,11 @@
 }
 
 .like-icon .contour {
-  transition: fill 0.1s linear; 
+  transition: fill 0.1s linear;
 }
 
 .like-icon .main-body {
-  transition: fill 0.3s linear; 
+  transition: fill 0.3s linear;
 }
 
 .like-icon .core {
