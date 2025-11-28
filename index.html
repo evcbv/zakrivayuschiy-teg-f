@@ -19,24 +19,8 @@
       <p class="header__subtitle">закрывающий тег</p>
     </header>
     <main class="content">
-      <dialog class="dialog" id="dialog">
-        <div class="dialog__content">
-          <svg viewBox="0 0 39 39" width="39" height="39">
-            <use href="./svg/floppy.svg#floppy" />
-          </svg>
-          <p class="dialog__text">
-            Вставьте дискету, чтобы продолжить
-          </p>
-        </div>
-        <button
-          class="dialog__button button"
-          type="button"
-          onclick="window['dialog'].close()">
-          <span class="button__text">ок</span>
-        </button>
-      </dialog>
       <section class="content__card">
-        <h3 class="content__card-title">Фритрек и нулевой спринт: Подготовка к работе</h3>
+        <h2 class="content__card-title">Фритрек и нулевой спринт: Подготовка к работе</h2>
         <div class="content__card_image-box">
           <p class="content__card_image-box-label">&lt;/html&gt;</p>
           <img
@@ -62,7 +46,7 @@
               aria-label="Лайк"
             >
             <svg
-              xmlns="http://www.w3.org/2000/svg" width="39" height="36" fill="none" viewBox="0 0 39 36" class="like-icon">
+              xmlns="http://www.w3.org/2000/svg" width="39" height="36" fill="none" viewBox="0 0 39 36" class="like-icon" aria-hidden="true">
               <g class="heart">
                   <path
                     class="contour"
@@ -116,7 +100,7 @@
               aria-label="Лайк"
             >
             <svg
-              xmlns="http://www.w3.org/2000/svg" width="39" height="36" fill="none" viewBox="0 0 39 36" class="like-icon">
+              xmlns="http://www.w3.org/2000/svg" width="39" height="36" fill="none" viewBox="0 0 39 36" class="like-icon" aria-hidden="true">
               <g class="heart">
                   <path
                     class="contour"
@@ -170,7 +154,7 @@
               aria-label="Лайк"
             >
             <svg
-              xmlns="http://www.w3.org/2000/svg" width="39" height="36" fill="none" viewBox="0 0 39 36" class="like-icon">
+              xmlns="http://www.w3.org/2000/svg" width="39" height="36" fill="none" viewBox="0 0 39 36" class="like-icon" aria-hidden="true">
               <g class="heart">
                   <path
                     class="contour"
@@ -224,7 +208,7 @@
               aria-label="Лайк"
             >
             <svg
-              xmlns="http://www.w3.org/2000/svg" width="39" height="36" fill="none" viewBox="0 0 39 36" class="like-icon">
+              xmlns="http://www.w3.org/2000/svg" width="39" height="36" fill="none" viewBox="0 0 39 36" class="like-icon" aria-hidden="true">
               <g class="heart">
                   <path
                     class="contour"
@@ -278,7 +262,7 @@
               aria-label="Лайк"
             >
             <svg
-              xmlns="http://www.w3.org/2000/svg" width="39" height="36" fill="none" viewBox="0 0 39 36" class="like-icon">
+              xmlns="http://www.w3.org/2000/svg" width="39" height="36" fill="none" viewBox="0 0 39 36" class="like-icon" aria-hidden="true">
               <g class="heart">
                   <path
                     class="contour"
@@ -332,7 +316,7 @@
               aria-label="Лайк"
             >
             <svg
-              xmlns="http://www.w3.org/2000/svg" width="39" height="36" fill="none" viewBox="0 0 39 36" class="like-icon">
+              xmlns="http://www.w3.org/2000/svg" width="39" height="36" fill="none" viewBox="0 0 39 36" class="like-icon" aria-hidden="true">
               <g class="heart">
                   <path
                     class="contour"
@@ -386,7 +370,7 @@
               aria-label="Лайк"
             >
             <svg
-              xmlns="http://www.w3.org/2000/svg" width="39" height="36" fill="none" viewBox="0 0 39 36" class="like-icon">
+              xmlns="http://www.w3.org/2000/svg" width="39" height="36" fill="none" viewBox="0 0 39 36" class="like-icon" aria-hidden="true">
               <g class="heart">
                   <path
                     class="contour"
@@ -440,7 +424,7 @@
               aria-label="Лайк"
             >
             <svg
-              xmlns="http://www.w3.org/2000/svg" width="39" height="36" fill="none" viewBox="0 0 39 36" class="like-icon">
+              xmlns="http://www.w3.org/2000/svg" width="39" height="36" fill="none" viewBox="0 0 39 36" class="like-icon" aria-hidden="true">
               <g class="heart">
                   <path
                     class="contour"
@@ -479,6 +463,22 @@
           </svg>
       <span class="button__text">Сохранить на память</span>
       </button>
+      <dialog class="dialog" id="dialog">
+        <div class="dialog__content">
+          <svg viewBox="0 0 39 39" width="39" height="39">
+            <use href="./svg/floppy.svg#floppy" />
+          </svg>
+          <p class="dialog__text">
+            Вставьте дискету, чтобы продолжить
+          </p>
+        </div>
+        <button
+          class="dialog__button button"
+          type="button"
+          onclick="window['dialog'].close()">
+          <span class="button__text">ок</span>
+        </button>
+      </dialog>
     </main>
     <script src="./scripts/like.js"></script>
   </body>
