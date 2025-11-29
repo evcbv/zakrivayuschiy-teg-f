@@ -103,7 +103,7 @@
   text-shadow: 1px rgba(255, 255, 255);
 }
 
-@supports ( (text-stroke: 0.5px #fff)) or (-webkit-text-stroke: 1px #fff) {
+@supports ( (text-stroke: 1px #fff)) or (-webkit-text-stroke: 1px #fff) {
   .content__card_image-box-label {
     text-shadow: none;
     -webkit-text-stroke: 1px #fff;
@@ -171,7 +171,7 @@
   overflow: hidden;
   cursor: pointer;
   background-color: #fff;
-  transition: transform 0.3s ease-out;
+  transition: transform 0.3s ease;
 }
 
 .button:focus {
@@ -182,12 +182,6 @@
 .button:focus-visible {
   outline: none;
   border: 2px solid var(--accent-color);
-  transition: border 0.3s ease;
-}
-
-.card__like-button:focus {
-  box-shadow: 2px 2px 0 var(--accent-color);
-  outline: none;
 }
 
 .card__icon-button:focus {
@@ -195,7 +189,8 @@
 }
 
 .card__icon-button:focus-visible {
-  outline: 1px solid var(--accent-color);
+  outline: 2px solid var(--accent-color);
+  box-shadow: none;
 }
 
 .dialog[open] {
